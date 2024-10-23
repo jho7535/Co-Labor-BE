@@ -89,3 +89,6 @@ https://github.com/eclipse-ee4j/jsonp-api/blob/master/LICENSE.md
 ## Libraries dynamically referenced via Maven
 
 Run `mvn license:license-list` in your project to get the latest licensing info about all dependencies.
+
+This service used datasets from 'The Open AI Dataset Project (AI-Hub, S. Korea)'. All data information can be accessed through 'AI-Hub (www.aihub.or.kr)'.
+Colabr Chatbot Service is trained by AI-Hub's `법률/규정 텍스트 분석 데이터 (고도화)- 상황에 따른 판례 데이터` (https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71723)
