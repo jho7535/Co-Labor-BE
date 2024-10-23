@@ -1,55 +1,91 @@
-# License for Co-Labor-BE Project
+# License overview of included 3rd party libraries
 
-This project contains software licensed under multiple licenses, including but not limited to the following:
+The Co-Labor-BE project is licensed under the terms of the [Apache License 2.0](LICENSE.md).
+However, Co-Labor-BE includes several third-party Open-Source libraries,
+which are licensed under their own respective Open-Source licenses.
 
----
+## Libraries directly included in Co-Labor-BE
 
-## Apache License 2.0
+### Spring Boot
 
-This project includes components distributed under the Apache License 2.0. You may obtain a copy of the license at [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+License: Apache License 2.0
+https://github.com/spring-projects/spring-boot/blob/main/LICENSE.txt
 
-### Apache Licensed Components:
-- org.springframework.boot (v3.3.1) - [License](https://github.com/spring-projects/spring-boot/blob/main/LICENSE.txt)
-- org.deeplearning4j (v1.0.0-beta7) - [License](https://github.com/deeplearning4j/deeplearning4j/blob/master/LICENSE)
-- org.nd4j (v1.0.0-beta7) - [License](https://github.com/deeplearning4j/deeplearning4j/blob/master/LICENSE)
-- com.opencsv (v5.5.2) - [License](https://github.com/loretoparisi/opencsv/blob/master/LICENSE)
-- commons-fileupload (v1.4) - [License](https://github.com/apache/commons-fileupload/blob/master/LICENSE.txt)
-- org.apache.httpcomponents (v4.5.13) - [License](https://github.com/apache/httpcomponents-client/blob/master/LICENSE.txt)
-- springdoc (v2.1.0) - [License](https://github.com/springdoc/springdoc-openapi/blob/main/LICENSE)
-- co.elastic.clients (v8.15.2) - [License](https://github.com/elastic/elasticsearch-java/blob/main/LICENSE.txt)
-- com.fasterxml.jackson.core (v2.14.0) - [License](https://github.com/FasterXML/jackson-core/blob/2.19/LICENSE)
-- org.springframework.ai (v0.8.0) - [License](https://github.com/spring-projects/spring-ai/blob/main/LICENSE.txt)
-- org.springframework.session (v3.3.1) - [License](https://github.com/spring-projects/spring-framework/blob/main/LICENSE.txt)
+### Deeplearning4j
 
----
+License: Apache License 2.0
+https://github.com/deeplearning4j/deeplearning4j/blob/master/LICENSE
 
-## JSON License
+### ND4J
 
-This project includes `org.json` which is licensed under the [JSON License](https://www.json.org/license.html).
+License: Apache License 2.0
+https://github.com/deeplearning4j/deeplearning4j/blob/master/LICENSE
 
----
+### OpenCSV
 
-## CDDL 1.1
+License: Apache License 2.0
+https://github.com/loretoparisi/opencsv/blob/master/LICENSE
 
-The `javax.transaction.transaction-api` library is licensed under CDDL 1.1. You may obtain a copy of the license at [CDDL 1.1 License](https://github.com/javaee/javax.transaction/blob/master/LICENSE).
+### Commons FileUpload
 
----
+License: Apache License 2.0
+https://github.com/apache/commons-fileupload/blob/master/LICENSE.txt
 
-## MIT License
+### Apache HttpComponents
 
-This project includes components distributed under the MIT License. You may obtain a copy of the license at [MIT License](https://opensource.org/licenses/MIT).
+License: Apache License 2.0
+https://github.com/apache/httpcomponents-client/blob/master/LICENSE.txt
 
-### MIT Licensed Components:
-- org.projectlombok (v1.18.24) - [License](https://github.com/projectlombok/lombok/blob/master/LICENSE)
+### SpringDoc
 
----
+License: Apache License 2.0
+https://github.com/springdoc/springdoc-openapi/blob/main/LICENSE
 
-## GPL 2.0 with FOSS License Exception
+### Elastic Java Client
 
-The `com.mysql` library is licensed under GPL 2.0 with a FOSS License Exception. You can find more information at [GPL 2.0 with FOSS Exception](https://www.mysql.com/about/legal/licensing/foss-exception/).
+License: Apache License 2.0
+https://github.com/elastic/elasticsearch-java/blob/main/LICENSE.txt
 
----
+### Jackson Core
 
-## EPL 2.0
+License: Apache License 2.0
+https://github.com/FasterXML/jackson-core/blob/2.19/LICENSE
 
-The `jakarta.json.json-api` library is licensed under EPL 2.0. You may obtain a copy of the license at [EPL 2.0 License](https://github.com/eclipse-ee4j/jsonp-api/blob/master/LICENSE.md).
+### Spring AI
+
+License: Apache License 2.0
+https://github.com/spring-projects/spring-ai/blob/main/LICENSE.txt
+
+### Spring Session
+
+License: Apache License 2.0
+https://github.com/spring-projects/spring-framework/blob/main/LICENSE.txt
+
+### Project Lombok
+
+License: MIT
+https://github.com/projectlombok/lombok/blob/master/LICENSE
+
+### JSON
+
+License: JSON License
+https://www.json.org/license.html
+
+### Jakarta Transaction API
+
+License: CDDL 1.1
+https://github.com/javaee/javax.transaction/blob/master/LICENSE
+
+### MySQL Connector/J
+
+License: GPL 2.0 with FOSS License Exception
+https://www.mysql.com/about/legal/licensing/foss-exception/
+
+### Jakarta JSON API
+
+License: EPL 2.0
+https://github.com/eclipse-ee4j/jsonp-api/blob/master/LICENSE.md
+
+## Libraries dynamically referenced via Maven
+
+Run `mvn license:license-list` in your project to get the latest licensing info about all dependencies.
