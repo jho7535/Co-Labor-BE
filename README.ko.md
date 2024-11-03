@@ -1,4 +1,4 @@
-[English version](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/develop/README.en.md)
+[English version](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/develop/README.md)
 
 # Co-Labor-BE
 
