@@ -2,10 +2,13 @@
 
 Co-Labor 프로젝트에 관심을 가져 주셔서 감사합니다! 이 문서는 프로젝트에 기여하기 위한 지침을 제공합니다. 오픈 소스로 프로젝트를 성장시키는 데 많은 도움을 주시기 바랍니다.
 
-## 📌 기여 전 준비 사항 (각 레포지에 리드미 참고해서 수정할거임)
+## 📌 기여 전 준비 사항
 
-1. **리포지토리 포크하기**: 이 리포지토리를 포크(fork)하여 개인 GitHub 계정으로 복사합니다.
-2. **로컬 환경 설정**: 로컬 환경에 리포지토리를 클론하고 필요한 종속성을 설치하세요. 
+기여하기 전에 각 리포지토리의 README 파일을 참고하여 로컬 환경 설정과 필요한 종속성 설치 방법을 확인하세요.
+
+- [프론트엔드 리포지토리 README](https://github.com/Co-Labor-Project/Co-Labor-FE/blob/develop/README.md)
+- [백엔드 리포지토리 README](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/develop/README.md)
+
    
 ## 🛠️ 기여할 수 있는 영역
 
