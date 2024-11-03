@@ -3,7 +3,8 @@ name: 기능 개발
 about: 새로운 기능 개발에 대한 이슈를 생성합니다.
 title: "[Feature] "
 labels: enhancement
-assignees: ""
+assignees: ''
+
 ---
 
 ## 기능 설명 📘
