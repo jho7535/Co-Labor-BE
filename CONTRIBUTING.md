@@ -9,6 +9,7 @@ Co-Labor 프로젝트에 관심을 가져 주셔서 감사합니다! 이 문서�
 기여하기 전에 각 리포지토리의 README 파일을 참고하여 로컬 환경 설정과 필요한 종속성 설치 방법을 확인하세요.
 
 - [백엔드 리포지토리 README](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/develop/README.md)
+- [QuickStart](https://github.com/Co-Labor-Project/deploy/blob/main/README.md)
 
 ## 🛠️ 기여할 수 있는 영역 (고민해야할 듯..)
 
