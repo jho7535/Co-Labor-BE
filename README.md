@@ -1,4 +1,4 @@
-[English version](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/main/README.en.md)
+[English version](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/develop/README.en.md)
 
 # Co-Labor-BE
 Co-Labor 프로젝트의 백엔드 레포지토리입니다. 
