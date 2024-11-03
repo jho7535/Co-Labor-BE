@@ -1,70 +1,82 @@
 # Co-Labor Contribution Guidelines
-[한국어 Version](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/develop/CONTRIBUTING.md)
 
-Thank you for your interest in contributing to the Co-Labor project! This document provides guidelines for contributing to the project and helping it grow as an open-source initiative.
+[한글 버전](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/develop/CONTRIBUTING.md)
 
-## 📌 Preparation Before Contributing
+Thank you for your interest in the Co-Labor project! 🎉
 
-Before contributing, please refer to the README file of each repository for details on setting up your local environment and installing necessary dependencies.
+<br />
 
-- [Backend Repository README](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/develop/README.md)
+## 📌 Introduction
+
+- Please check the ISSUES to see if the problem has already been reported or if the feature has been discussed.
+
+- If you want to propose a new feature or report a bug, please create an issue.
+
+<br />
+
+## Configuration
+
+Please refer to the following documents to set up your development environment and prepare for contribution!
+
+- [Backend](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/develop/README.md)
+- [Frontend](https://github.com/Co-Labor-Project/Co-Labor-FE/blob/main/README.ko.md)
 - [QuickStart](https://github.com/Co-Labor-Project/deploy/blob/main/README.md)
 
-## 🛠️ Areas of Contribution (to be finalized)
+<br />
 
-- **Backend Enhancements**: Improve API and database structure using Spring Framework and MySQL.
-- **Bug Reporting and Fixes**: Identify bugs in the project, create issues, or fix them directly.
-- **Documentation Improvement**: Enhance README or other documentation to improve usability and understanding.
+## 🛠️ How to Contirbute
 
-## 📝 Issue Submission Guide
+1.  Create an Issue
 
-When creating an issue for a new feature or bug fix, please use the following template:
+    - Please create an issue for the part you wish to contribute to.
 
-### Issue Template: Feature Development
+2.  Create a Branch
 
-1. **Feature Description 📘**: Provide a clear and concise description of the feature.
-2. **Implementation Approach 🛠**: Briefly outline how you plan to implement this feature.
-3. **Additional Information 📎**: Include any additional context or resources that are relevant.
+    - Please create a branch according to the issue number.
+    - Branch naming convention: feat/#issueNumber or fix/#issueNumber
 
-## 🚀 Branch and Pull Request Guide
+3.  Code Changes
 
-1. **Branch Creation**: Create a branch using the issue number as the reference when developing a new feature.
-   - Branch naming convention: `feat/#issue-number` or `fix/#issue-number`
-   - Example: `feat/#69` or `fix/#45`
+    - Maintain good readability and follow package and file naming conventions.
+    - Especially for variables and classes, please use Camel Case naming convention.
+    - Add detailed comments.
 
-   ```bash
-   git checkout -b feat/#issue-number
+4.  Commit
 
-2. **Commit Message**: Follow the commit message conventions listed below for clarity.
+    - Please write commit messages following these conventions:
+      ```
+      feat: Commit for new features
+      fix: Commit for bug fixes
+      build: Commit for build-related file changes / module installations or deletions
+      chore: Commit for miscellaneous changes
+      ci: Commit for CI-related configuration changes
+      docs: Commit for documentation changes
+      style: Commit for code style or formatting changes
+      refactor: Commit for code refactoring
+      test: Commit for test code modifications
+      perf: Commit for performance improvements
+      ```
 
-   - `feat`: A commit for a new feature
-   - `fix`: A commit for a bug fix
-   - `build`: Changes to build files / module installation or removal
-   - `chore`: Miscellaneous changes
-   - `ci`: Continuous integration configuration changes
-   - `docs`: Documentation changes
-   - `style`: Code style or formatting changes
-   - `refactor`: Code refactoring
-   - `test`: Modifications to test code
-   - `perf`: Performance improvements
+5.  Please follow the PR rules when creating a pull request.
 
-3. **Creating a Pull Request**: In the PR, include the Issue number in the title and a brief description, along with implementation details if applicable.
+    - Please follow the PR rules when creating a pull request.
+    - PR title example: `[feat] #69 - Add search functionality`
 
-   - **PR Title Example**: `[feat] #69 - Add search functionality`
-   - **PR Description**: Include a summary of the issue, main changes, and implementation approach for easier review.
+6.  Review and Feedback
+    - After creating a PR, incorporate necessary feedback through GitHub comments in consultation with the team.
+    - Once feedback is reflected, commit the changes to the PR and request another review.
+    - The PR will be merged after receiving final team approval.
 
-4. **Review and Feedback**: After creating the PR, engage with team members on GitHub for feedback.
+<br />
 
-   - Once feedback is incorporated, commit the changes to the PR and notify the reviewer.
-   - When all reviewers approve, the PR can be merged.
+## Pull Request Checklist
 
-## 📘 Code Style Guide
+[ ] Have you followed the code style guide?  
+[ ] Have you added tests?  
+[ ] Have you followed the commit convention?
 
-**Backend**: Follow Spring naming conventions and maintain a consistent code structure.
+<br />
 
-## 🗣️ Communication
+## License
 
-For discussions related to contributions, please use GitHub Issues and PR comments.
-
-Thank you for contributing to the Co-Labor project!
-
+By contributing to this project, you agree that your contributions will be licensed under the project's license.
