@@ -1,4 +1,4 @@
-[한글 버전](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/develop/README.md)
+[한글 버전](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/develop/README.ko.md)
 
 # Co-Labor-BE
 
