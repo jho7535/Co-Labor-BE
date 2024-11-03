@@ -10,7 +10,7 @@ Co-Labor 프로젝트에 관심을 가져 주셔서 감사합니다! 이 문서�
 - [백엔드 리포지토리 README](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/develop/README.md)
 
    
-## 🛠️ 기여할 수 있는 영역
+## 🛠️ 기여할 수 있는 영역 (고민해야할 듯..)
 
 - **백엔드 확장**: Spring Framework와 MySQL을 사용하여 API와 데이터베이스 구조를 개선할 수 있습니다.
 - **버그 리포트 및 수정**: 프로젝트의 버그를 찾아 이슈를 생성하거나 직접 수정할 수 있습니다.
