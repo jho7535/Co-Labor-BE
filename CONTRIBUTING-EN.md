@@ -1,5 +1,5 @@
 # Co-Labor Contribution Guidelines
-[Korean Version](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/develop/CONTRIBUTING.md)
+[한국어 Version](https://github.com/Co-Labor-Project/Co-Labor-BE/blob/develop/CONTRIBUTING.md)
 
 Thank you for your interest in contributing to the Co-Labor project! This document provides guidelines for contributing to the project and helping it grow as an open-source initiative.
 
